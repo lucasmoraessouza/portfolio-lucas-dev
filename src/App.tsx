@@ -1,7 +1,11 @@
+import { Header } from "./components/Header";
+import { Informations } from "./components/Informations";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold font-nunito">
-      Lucas de Moraes Souza
-    </h1>
-  )
+    <main className="flex flex-col h-screen">
+      <Header />
+      <Informations />
+    </main>
+  );
 }
